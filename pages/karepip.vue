@@ -2,7 +2,7 @@
     <v-layout>
         <v-flex class="text-center">
             <h2>彼ピッピツイートメーカー</h2>
-            <p>ひらがなの「し」を自動で「ピッピ」に変換してつぶやこう！</p>
+            <p>ひらがなの「し」を自動で「ピッピ」に変換してつぶやきます。</p>
             <v-textarea outlined v-model="message" class="mt-12 mb-8"></v-textarea>
             <v-btn class="mb-12" color="#1DA1F2" @click="popUpTweetWindow()">tweetする</v-btn>
             <p>{{reverse}}</p>
