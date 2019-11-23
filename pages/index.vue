@@ -1,0 +1,30 @@
+<template>
+    <v-layout column justify-center align-center>
+        <v-flex xs12 sm8 md6>
+            <h1 class="pb-5">変なツイートメーカー</h1>
+            <p>いつもと違ったツイートを作成してみよう！</p>
+            <nuxt-link class="link" to="/inspire">- リバースツイート</nuxt-link>
+        </v-flex>
+    </v-layout>
+</template>
+
+<script>
+import Logo from '~/components/Logo.vue'
+import VuetifyLogo from '~/components/VuetifyLogo.vue'
+
+export default {
+    components: {
+        Logo,
+        VuetifyLogo
+    }
+}
+</script>
+
+<style lang="css" scoped>
+.link {
+    text-decoration: none;
+    font-size: 28px;
+    color: blue;
+}
+</style>
+
