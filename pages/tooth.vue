@@ -36,7 +36,7 @@ export default {
     },
     methods: {
         popUpTweetWindow() {
-            const url = `https://twitter.com/intent/tweet?text=${this.reverse}+%20%23変なツイートメーカー&url=https://strange-tweet-maker.netlify.com/karepip`
+            const url = `https://twitter.com/intent/tweet?text=${this.reverse}+%20%23変なツイートメーカー&url=https://strange-tweet-maker.com/tooth`
             const option = 'status=1'
             window.open(url, 'twitter', option)
         },
