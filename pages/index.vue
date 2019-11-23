@@ -3,7 +3,10 @@
         <v-flex xs12 sm8 md6>
             <h1 class="pb-5">変なツイートメーカー</h1>
             <p>いつもと違ったツイートを作成してみよう！</p>
-            <nuxt-link class="link" to="/inspire">- リバースツイート</nuxt-link>
+            <div class="container">
+                <nuxt-link class="link" to="/inspire">- リバースツイート</nuxt-link>
+                <nuxt-link class="link" to="/bug">- 一つ飛ばしツイート</nuxt-link>
+            </div>
         </v-flex>
     </v-layout>
 </template>
@@ -25,6 +28,11 @@ export default {
     text-decoration: none;
     font-size: 28px;
     color: blue;
+}
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
 }
 </style>
 

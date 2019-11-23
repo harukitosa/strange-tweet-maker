@@ -80,6 +80,11 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'リバースツイート',
           to: '/inspire'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title:'一つ飛ばしツイート',
+          to: '/bug'
         }
       ],
       miniVariant: false,
