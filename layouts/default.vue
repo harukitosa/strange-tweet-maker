@@ -85,6 +85,11 @@ export default {
           icon: 'mdi-chart-bubble',
           title:'一つ飛ばしツイート',
           to: '/bug'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: '彼ピッピツイート',
+          to: '/karepip'
         }
       ],
       miniVariant: false,
