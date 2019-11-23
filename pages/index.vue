@@ -4,6 +4,7 @@
             <h1 class="pb-5">変なツイートメーカー</h1>
             <p>いつもと違ったツイートをしてみよう！</p>
             <div class="container">
+                <nuxt-link class="link" to="/tooth">- トゥースツイート</nuxt-link>
                 <nuxt-link class="link" to="/karepip">- 彼ピッピツイート</nuxt-link>
                 <nuxt-link class="link" to="/inspire">- リバースツイート</nuxt-link>
                 <nuxt-link class="link" to="/bug">- 一つ飛ばしツイート</nuxt-link>

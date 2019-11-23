@@ -78,6 +78,11 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
+          title: 'トゥースツイート',
+          to: '/tooth'
+        },
+        {
+          icon: 'mdi-chart-bubble',
           title: 'リバースツイート',
           to: '/inspire'
         },
