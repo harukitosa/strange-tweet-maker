@@ -95,7 +95,13 @@ export default {
           icon: 'mdi-chart-bubble',
           title: '彼ピッピツイート',
           to: '/karepip'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'fizzbuzzツイート',
+          to: '/fizbuzz'
         }
+
       ],
       miniVariant: false,
       right: true,
