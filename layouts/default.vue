@@ -100,8 +100,12 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'fizzbuzzツイート',
           to: '/fizbuzz'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'タヌキツイート',
+          to: '/tanuki'
         }
-
       ],
       miniVariant: false,
       right: true,
