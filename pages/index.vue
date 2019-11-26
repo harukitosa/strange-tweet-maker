@@ -8,8 +8,9 @@
                 <nuxt-link class="link" to="/karepip">- 彼ピッピツイート</nuxt-link>
                 <nuxt-link class="link" to="/inspire">- リバースツイート</nuxt-link>
                 <nuxt-link class="link" to="/bug">- 一つ飛ばしツイート</nuxt-link>
-                <nuxt-link class="link" to="/fizbuzz">- fizzbuzzツイート</nuxt-link>
                 <nuxt-link class="link" to="/tanuki">- タヌキツイート</nuxt-link>
+                <nuxt-link class="link" to="/fizbuzz">- fizzbuzzツイート</nuxt-link>
+                <nuxt-link class="link" to="/kushami">- くしゃみツイート</nuxt-link>
             </div>
         </v-flex>
     </v-layout>

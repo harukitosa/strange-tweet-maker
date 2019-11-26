@@ -35,6 +35,7 @@
     <v-content>
       <v-container>
         <nuxt />
+        <Favorite/>
       </v-container>
     </v-content>
     <v-navigation-drawer
@@ -64,6 +65,7 @@
 </template>
 
 <script>
+import Favorite from '../components/Favorite.vue'
 export default {
   data () {
     return {
@@ -105,6 +107,11 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'タヌキツイート',
           to: '/tanuki'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'くしゃみツイート',
+          to: '/kushami'
         }
       ],
       miniVariant: false,
@@ -112,6 +119,9 @@ export default {
       rightDrawer: false,
       title: '変なツイートメーカー'
     }
+  },
+  components: {
+    Favorite
   }
 }
 </script>
